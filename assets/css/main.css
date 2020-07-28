@@ -1818,7 +1818,7 @@ input, select, textarea {
 		input[type="password"]:focus,
 		input[type="email"]:focus,
 		textarea:focus {
-			border-color: #83d3c9;
+			border-color: #78dbb9;
 		}
 
 	input[type="text"],
@@ -2074,6 +2074,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		align-content: center;
 	}
 
 		ul.buttons:last-child {
@@ -2173,8 +2174,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #78dbb9;
+			border-color: #78dbb9;
 			color: #fff !important;
 		}
 
@@ -2217,7 +2218,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
+			/*background-color: #78dbb9;*/
+			background-color: #78dbb9;
 			/*background-color: white;*/
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
@@ -2241,7 +2243,7 @@ input, select, textarea {
 			.wrapper.style2 .button.primary {
 				background: #fff;
 				border-color: #fff;
-				color: #83d3c9 !important;
+				color: #78dbb9 !important;
 			}
 
 				.wrapper.style2 input[type="button"].primary:hover,
@@ -2482,7 +2484,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #78dbb9;
 				color: #fff;
 			}
 
@@ -2534,11 +2536,14 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
+		background-image: url("../imgs/background.jpg");
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: bottom left, bottom right, top left, top center;
+		background-position: center;
+		content: "";
+		/*background-position: bottom left, bottom right, top left, top center;*/
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: cover;
+		/*background-size: 25em, 25em, auto, cover;*/
 		color: #fff;
 		cursor: default;
 		padding: 6em 0 3em 0;
@@ -2554,10 +2559,10 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			/*background-color: rgba(52, 27, 43, 0.5);*/
+			background-color: #645862;
 			color: #fff;
 			display: inline-block;
-			opacity: 0;
 			padding: 3em;
 			text-align: center;
 		}
