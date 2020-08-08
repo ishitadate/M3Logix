@@ -2218,9 +2218,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			/*background-color: #78dbb9;*/
-			background-color: #78dbb9;
-			/*background-color: white;*/
+			background-color: #950200;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
@@ -2537,7 +2535,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-image: url("../imgs/background.jpg");
-		background-color: #645862;
+		background-color: grey;
 		background-position: center;
 		content: "";
 		/*background-position: bottom left, bottom right, top left, top center;*/
@@ -2559,8 +2557,7 @@ input, select, textarea {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			/*background-color: rgba(52, 27, 43, 0.5);*/
-			background-color: #645862;
+			background-color: grey;
 			color: #fff;
 			display: inline-block;
 			padding: 3em;
@@ -2637,7 +2634,7 @@ input, select, textarea {
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
+		background-color: grey;
 		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
